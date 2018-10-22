@@ -20,7 +20,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/kshitijjain/http-get-multiplier.git"
+    "url": "https://bitbucket.org/kshitijjain/http-get-multiplier"
   },
   "homepage": "https://bitbucket.org/kshitijjain/http-get-multiplier"
 }
