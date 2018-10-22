@@ -1,7 +1,7 @@
 {
   "name": "http-get-multiplier",
   "version": "1.0.0",
-  "description": "http-get-multiplier",
+  "description": "A simple NodeJS http server which accepts two numbers over GET request and returns their output.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -13,5 +13,14 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "request": "^2.88.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/kshitijjain/http-get-multiplier.git"
+  },
+  "homepage": "https://bitbucket.org/kshitijjain/http-get-multiplier"
 }
