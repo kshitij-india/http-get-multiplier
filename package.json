@@ -1,10 +1,10 @@
 {
   "name": "http-get-multiplier",
   "version": "1.0.0",
-  "description": "A simple NodeJS http server which accepts two numbers over GET request and returns their output.",
+  "description": "A simple NodeJS http server which accepts two numbers over GET request and returns their product",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --timeout 10000",
     "start": "node index"
   },
   "author": "Kshitij Jain",
@@ -20,7 +20,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/kshitijjain/http-get-multiplier"
+    "url": "https://github.com/kshitij-india/http-get-multiplier"
   },
-  "homepage": "https://bitbucket.org/kshitijjain/http-get-multiplier"
+  "homepage": "https://github.com/kshitij-india/http-get-multiplier"
 }
