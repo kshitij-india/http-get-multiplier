@@ -5,8 +5,10 @@ var server= require('../server');
 
 describe("Product of two numbers server tests",function(){
 
-    before('start the server', function(){
-        server.listen(3001);
+    before('start the server', function(done){
+        server.listen(3001, function(){
+            done();
+        });
     });
 
    describe('correct product should be displayed for valid inputs', function(){

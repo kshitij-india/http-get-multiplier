@@ -12,9 +12,11 @@ var httpServer= http.createServer(function(req, res){
         }
 });
 
-exports.listen= function(port){
+exports.listen= function(port, callback){
     httpServer.listen(port, function(){
         console.log(`Server listening on port ${port}. Please navigate to http://localhost:${port}?a=5&b=10 to proceed`);
+
+        if(callback) callback();
     });
 };
 
